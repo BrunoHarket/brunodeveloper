@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Poppins:wght@300;500;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    background-color: black;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav{
+    width: 60%;
+}
+
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li{
+    font-family: 'orbitron',sans-serif;
+    font-size: 19px;
+    color: #cccccc;
+    transition: 0.2s;
+}
+
+li:hover{
+    color: #666666;
+}
+
+#logo{
+    width: auto;
+    height: 75px;
+}
+
+.album{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+.pagina{
+    background-color:black;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.foto{
+    background-color:black;
+    width: 90%;
+    height: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 20px 10px;
+    margin-left: 20px;
+    transition: 1s;
+    background-size: cover;
+}
+
+.foto:hover{
+    transform: scale(1.2);
+}
+
+.foto-1{
+    background-image: url('https://i.pinimg.com/originals/44/7e/1a/447e1a34eca8bc53d8de23152255b5f4.gif');
+}
+
+.foto-2{
+    background-image: url('https://img.mensxp.com/media/content/2020/Dec/image-2_5feb163bc3941.gif');
+}
+
+.foto-3{
+    background-image: url('https://i.pinimg.com/originals/46/d5/cd/46d5cd7433f3e9da01c7970605070ee1.gif');
+}
+
+.foto-4{
+    background-image: url('https://i.pinimg.com/originals/dc/a3/1c/dca31c2b9390dd52bd0c0352f6b2eabb.gif');
+}
+
+.foto-5{
+    background-image: url('https://i.pinimg.com/originals/99/b8/b1/99b8b1eef29219d965450b3183f17ef6.gif');
+}
+
+.foto-6{
+    background-image: url('https://i.pinimg.com/originals/3d/19/38/3d1938c557b5289738a73473513e460e.gif');
+}
+
+.foto-7{
+    background-image: url('https://i.pinimg.com/originals/81/0d/3c/810d3c1e5b5190d1f8853624ab21cb24.gif');
+}
+
+.foto-8{
+    background-image: url('https://i.pinimg.com/originals/8e/d6/37/8ed6379f140bf339a621580a4995af0a.gif');
+}
+
+.foto-9{
+    background-image: url('https://i.pinimg.com/originals/45/13/5a/45135a523733366bb1bc67df8f0bbc28.gif');
+}
+
+.foto-10{
+    background-image: url('https://i.pinimg.com/originals/bb/ef/cc/bbefcc51560baa7b359c9ddea500d14d.gif');
+}
+
+.foto-11{
+    background-image: url('https://i.pinimg.com/originals/2d/46/5e/2d465ee7572c0c9625bba772c6073551.gif');
+}
+
+.foto-12{
+    background-image: url('https://i.pinimg.com/originals/ca/81/f0/ca81f053ba72901d697bfd79fe783c6f.gif');
+}
+
+
+footer{
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+spam{
+    color: gold;
+    font-family: 'orbitron',sans-serif;
+}
+
+.footer-navegation{
+    display: none;
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 768px){
+    .footer-navegation{
+        display: block;
+    }
+
+    nav{
+        display: none;
+    }
+
+   .pagina{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-right: 15px;
+   }
+}
+
+
+
+
